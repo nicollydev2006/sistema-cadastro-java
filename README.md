@@ -1,18 +1,62 @@
-## Getting Started
+# Sistema de Cadastro em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Projeto desenvolvido em Java utilizando Programação Orientada a Objetos para gerenciamento de usuários em um sistema de cadastro via terminal.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- Cadastro de usuários
+- Listagem de usuários
+- Busca de usuários
+- Remoção de usuários
+- Menu interativo no terminal
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tecnologias utilizadas
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java
+- Programação Orientada a Objetos (POO)
+- ArrayList
+- Scanner
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Estrutura do projeto
 
-## Dependency Management
+```bash
+src/
+├── Main.java
+├── Usuario.java
+└── CadastroUsuarios.java
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Objetivo do projeto
+
+Praticar conceitos fundamentais de Java, lógica de programação e orientação a objetos através da construção de um sistema simples de gerenciamento de usuários.
+
+## Como executar
+
+1. Compile os arquivos:
+
+```bash
+javac src/*.java
+```
+
+2. Execute o sistema:
+
+```bash
+java -cp src Main
+```
+
+## Exemplo do sistema
+
+```bash
+===== SISTEMA DE CADASTRO =====
+
+1 - Cadastrar usuário
+2 - Listar usuários
+3 - Buscar usuário
+4 - Remover usuário
+0 - Sair
+```
+
+## Autor
+
+Nicolly Rodrigues
+```
